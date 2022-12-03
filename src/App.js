@@ -1,4 +1,5 @@
 import './App.css';
+import HueLights from './HueLights';
 import HueStatus from './HueStatus';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <HueStatus></HueStatus>
       </header>
       <main>
-        <p>Main content here</p>
+        <HueLights></HueLights>
       </main>
     </div>
   );
